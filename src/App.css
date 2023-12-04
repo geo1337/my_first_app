@@ -24,15 +24,127 @@
   color: white;
 }
 
+.Form-wrapper {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column !important;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+  text-align: center !important;
+}
+
+.Form-wrapper3 {
+  background-color: #282c34;
+  min-height: 30vh;
+  display: flex;
+  flex-direction: column !important;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+  text-align: center !important;
+}
+
+.hotfix3 {
+  background-color: #282c34;
+  min-height: 100vh;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+  text-align: center !important;
+}
+
+.hotfix {
+  display: flex !important;
+  flex-direction: row !important;
+}
+.charts-container {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 20px;
+}
+
+.charts-container div {
+  width: 10% !important;
+}
+
+body span p {
+  font-size: 16px !important;
+}
+#test {
+  margin-left: auto !important;
+}
+
+ .demo-simple-select{
+  color:  white !important;
+}
+
+.Form-wrapper label p {
+  font-size: 16px !important;
+  flex-direction: column !important;
+}
+/* Chrome, Safari, Edge, Opera */
+.react-numeric-input
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none !important;
+  margin: 0 !important;
+}
+
+.Form-wrapper button {
+ 
+  /*margin-top: 20px !important; */
+  /*text-align: center !important;
+  display: block !important; 
+  margin: auto;
+  margin-bottom: unset !important; */
+} 
+
+.hotfix2 button {
+  display: flex !important;
+
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+/* Firefox */
+input[type=text] {
+  -moz-appearance: textfield !important;
+}
+input[type=number]{
+  -moz-appearance: textfield !important;
+}
 .App-link {
   color: #61dafb;
 }
 
-@keyframes App-logo-spin {
+.App input {
+ max-width: 500px !important;
+}
+.App img {
+  border-radius: 50px;
+  background-color: transparent !important;
+}
+
+.App button {
+  border: none !important;
+}
+.App button:hover {
+  outline: none !important;
+}
+
+/*@keyframes App-logo-spin {
   from {
     transform: rotate(0deg);
   }
   to {
     transform: rotate(360deg);
   }
-}
+} */
